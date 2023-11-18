@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "com.apknasa.app-merged_res-35:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "com.apknasa.app-res-29:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "com.apknasa.app-merged_res-35:/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.apknasa.app-res-29:/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.apknasa.app-merged_res-35:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.apknasa.app-res-29:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.apknasa.app-merged_res-35:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.apknasa.app-main-36:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.apknasa.app-merged_res-35:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.apknasa.app-main-36:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.apknasa.app-merged_res-35:/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.apknasa.app-res-29:/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.apknasa.app-merged_res-35:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.apknasa.app-main-36:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.apknasa.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.apknasa.app-main-36:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.apknasa.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.apknasa.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.apknasa.app-merged_res-35:/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.apknasa.app-res-29:/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.apknasa.app-merged_res-35:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.apknasa.app-main-36:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.apknasa.app-merged_res-35:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.apknasa.app-main-36:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.apknasa.app-merged_res-35:/drawable-mdpi_src_assets_logonasa.png.flat",
+        "source": "com.apknasa.app-res-29:/drawable-mdpi/src_assets_logonasa.png"
+    },
+    {
+        "merged": "com.apknasa.app-merged_res-35:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.apknasa.app-main-36:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.apknasa.app-merged_res-35:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.apknasa.app-main-36:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.apknasa.app-merged_res-35:/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.apknasa.app-res-29:/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.apknasa.app-merged_res-35:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.apknasa.app-main-36:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.apknasa.app-merged_res-35:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.apknasa.app-main-36:/drawable/rn_edit_text_material.xml"
+    }
+]

@@ -1,0 +1,89 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.apknasa"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\hiram\apkNasa\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\hiram\apkNasa\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\hiram\apkNasa\android\app\src\main\AndroidManifest.xml:3:5-67
+11-->C:\Users\hiram\apkNasa\android\app\src\main\AndroidManifest.xml:3:22-64
+12
+13    <application
+13-->C:\Users\hiram\apkNasa\android\app\src\main\AndroidManifest.xml:5:5-24:19
+14        android:name="com.apknasa.MainApplication"
+14-->C:\Users\hiram\apkNasa\android\app\src\main\AndroidManifest.xml:6:7-38
+15        android:allowBackup="false"
+15-->C:\Users\hiram\apkNasa\android\app\src\main\AndroidManifest.xml:10:7-34
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.8.0] C:\Users\hiram\.gradle\caches\transforms-3\9623e378e4dfc57c47793d0ffd25ee05\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\hiram\apkNasa\android\app\src\main\AndroidManifest.xml:8:7-41
+18        android:label="@string/app_name"
+18-->C:\Users\hiram\apkNasa\android\app\src\main\AndroidManifest.xml:7:7-39
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\hiram\apkNasa\android\app\src\main\AndroidManifest.xml:9:7-52
+20        android:theme="@style/AppTheme" >
+20-->C:\Users\hiram\apkNasa\android\app\src\main\AndroidManifest.xml:11:7-38
+21        <activity
+21-->C:\Users\hiram\apkNasa\android\app\src\main\AndroidManifest.xml:12:7-23:18
+22            android:name="com.apknasa.MainActivity"
+22-->C:\Users\hiram\apkNasa\android\app\src\main\AndroidManifest.xml:13:9-37
+23            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+23-->C:\Users\hiram\apkNasa\android\app\src\main\AndroidManifest.xml:15:9-118
+24            android:exported="true"
+24-->C:\Users\hiram\apkNasa\android\app\src\main\AndroidManifest.xml:18:9-32
+25            android:label="@string/app_name"
+25-->C:\Users\hiram\apkNasa\android\app\src\main\AndroidManifest.xml:14:9-41
+26            android:launchMode="singleTask"
+26-->C:\Users\hiram\apkNasa\android\app\src\main\AndroidManifest.xml:16:9-40
+27            android:windowSoftInputMode="adjustResize" >
+27-->C:\Users\hiram\apkNasa\android\app\src\main\AndroidManifest.xml:17:9-51
+28            <intent-filter>
+28-->C:\Users\hiram\apkNasa\android\app\src\main\AndroidManifest.xml:19:9-22:25
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\hiram\apkNasa\android\app\src\main\AndroidManifest.xml:20:13-65
+29-->C:\Users\hiram\apkNasa\android\app\src\main\AndroidManifest.xml:20:21-62
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\hiram\apkNasa\android\app\src\main\AndroidManifest.xml:21:13-73
+31-->C:\Users\hiram\apkNasa\android\app\src\main\AndroidManifest.xml:21:23-70
+32            </intent-filter>
+33        </activity>
+34
+35        <provider
+35-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hiram\.gradle\caches\transforms-3\259206a491dfa4b8b6052b2b1c41d979\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+36            android:name="androidx.startup.InitializationProvider"
+36-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hiram\.gradle\caches\transforms-3\259206a491dfa4b8b6052b2b1c41d979\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+37            android:authorities="com.apknasa.androidx-startup"
+37-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hiram\.gradle\caches\transforms-3\259206a491dfa4b8b6052b2b1c41d979\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+38            android:exported="false" >
+38-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hiram\.gradle\caches\transforms-3\259206a491dfa4b8b6052b2b1c41d979\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+39            <meta-data
+39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hiram\.gradle\caches\transforms-3\259206a491dfa4b8b6052b2b1c41d979\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+40                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+40-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hiram\.gradle\caches\transforms-3\259206a491dfa4b8b6052b2b1c41d979\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+41                android:value="androidx.startup" />
+41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hiram\.gradle\caches\transforms-3\259206a491dfa4b8b6052b2b1c41d979\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+42            <meta-data
+42-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\hiram\.gradle\caches\transforms-3\b1c537e6049df5a2dcb1a9b20b1a8868\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+43                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+43-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\hiram\.gradle\caches\transforms-3\b1c537e6049df5a2dcb1a9b20b1a8868\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+44                android:value="androidx.startup" />
+44-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\hiram\.gradle\caches\transforms-3\b1c537e6049df5a2dcb1a9b20b1a8868\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+45        </provider>
+46
+47        <meta-data
+47-->[com.facebook.soloader:soloader:0.10.5] C:\Users\hiram\.gradle\caches\transforms-3\ec3312a013bd7d8a70466a1977a1dba4\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:12:9-14:37
+48            android:name="com.facebook.soloader.enabled"
+48-->[com.facebook.soloader:soloader:0.10.5] C:\Users\hiram\.gradle\caches\transforms-3\ec3312a013bd7d8a70466a1977a1dba4\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:13:13-57
+49            android:value="false" />
+49-->[com.facebook.soloader:soloader:0.10.5] C:\Users\hiram\.gradle\caches\transforms-3\ec3312a013bd7d8a70466a1977a1dba4\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:14:13-34
+50    </application>
+51
+52</manifest>
